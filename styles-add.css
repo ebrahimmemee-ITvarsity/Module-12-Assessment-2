@@ -1,0 +1,66 @@
+/* CSS for Add Contact Page */
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #A0A0A0; 
+    margin: 0;
+    padding: 20px; 
+}
+
+form {
+    background-color:  #606060;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    max-width: 400px; 
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px; 
+    display: block;
+    color: white;
+}
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da; 
+    border-radius: 4px;
+    color: black;
+    background-color: #A0A0A0;
+}
+button {
+    padding: 10px 15px; 
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#homeLink {
+    margin-top: 20px; 
+}
+@media (max-width: 600px) {
+    form {
+        width: 90%; 
+    }
+
+    button {
+        width: 100%;
+    }
+    body {
+        padding: 10px;
+    }
+}
